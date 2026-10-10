@@ -37,7 +37,7 @@ def make_hash(password):
 # DATABASE SETUP (SUPABASE POSTGRESQL)
 # ---------------------------------------------------------
 # ลิงก์เชื่อมต่อฐานข้อมูลของคุณ
-DB_URL = "postgresql://postgres:GNKCxEPuD11@db.koslwumkjvvlhboutpcy.supabase.co:5432/postgres"
+DB_URL = "postgresql://postgres.koslwumkjvvlhboutpcy:GNKCxEPuD11@aws-0-ap-southeast-1.pooler.supabase.com:6543/postgres"
 
 # Engine สำหรับให้ Pandas ใช้อ่านข้อมูลตารางได้ง่ายๆ
 engine = create_engine(DB_URL.replace("postgresql://", "postgresql+psycopg2://"))
